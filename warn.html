@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="pt-BR">
+  <head>
+    <style>
+      .center {
+        padding-top: 200px;
+        margin: auto;
+        width: 30%;
+        color: white;
+      }
+    </style>
+  </head>
+​
+  <body style="background-color: #ff5600;">
+    <div class="center">
+      <img src="!.png"></img>
+      <h2>Site malicioso detectado!</h2>
+      <p>O conteudo desse site é considerado imprórprio.</p></br>
+      <p>Este site foi bloqueado por possuir conteúdo malicioso.</p>
+      <p>O acesso a esse site não é recomendado mas, caso deseje acessá-lo mesmo assim, <a id="link" href="https://ring-0.io/br">clique aqui.</a></p>
+    </div>
+  </body>
+  <script>
+    let ref = document.referrer;
+    if (ref) {
+      document.getElementById("link").href = ref;
+    }
+  </script>
+</html> 
