@@ -1,16 +1,19 @@
 var img = {
 	1: "https://www.life.com.br/imgs/logolife.png",
-	2: "https://www.fs.com.br/assets/image/logo/head-logo-fs.png"
+	2: "https://www.fs.com.br/assets/image/logo/head-logo-fs.png",
+	3: "https://srx.net.br/assets/logo_srx.png"
 };
 
 var bg = {
 	1: "black",
-	2: "white"
+	2: "white",
+	3: "#f7f6f2ff"
 }
 
 var url = {
 	1: "https://life.net.br/",
-	2: "https://www.fs.com.br/"
+	2: "https://www.fs.com.br/",
+	3: "https://srx.net.br/"
 }
 
 function querystringValue(name) {
